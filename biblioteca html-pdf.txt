@@ -1,0 +1,22 @@
+toFile- > esse cara vai basicamente pegar o que esta escrito aqui e vai gerar um arquivo pdf
+com esse conteudo que coloquei aqui
+e aqui posso dar o nome do arquivo e em qual pasta posso gerar o arquivo.
+Essa função ela recebe um call back que tem dois parametros um de erro e um de resposta
+primeiramente vou verificar de aconteceu um erro
+se não vou simplemnte printar a variavel res
+
+O que seria view engine?
+São ferramentas que elas permitem que voce escreva HTML dinamico.
+Então é possivel criar um arquivo html dentro do meu projeto e eu conseigo colocar variaveis
+dentro desse arquivo, If, else, laços de repetição
+
+Usando o ejs posso criar um arquivo ejs e nesse arquivo
+eu posso renderizar ele 
+Como?
+eu chamo o ejs.renderFile() -> renderizar um arquivo, eu digo qual o nome do arquivo que quero renderizar
+no caso é o meu arquivo HTML aqui, que tem o nome meuarquivo.ejs que esta na minha pasta raiz e eu digo a ele quais os dados que eu queor passar
+para dentro desse arquivo nesse caso são as variaveis chamada nome, curso e categoria, e esse cara recebe um callback
+com erro e variavel que vai retorna para nos.
+
+Dentro do pdf.create vamos trocar a variavel conteudo para html do call do renderFile
+para pode rendereizar
